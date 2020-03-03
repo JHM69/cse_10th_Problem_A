@@ -1,0 +1,12 @@
+intx,y,t=1,n;
+n=input.nextInt();
+while(t<=n)
+x=input.nextInt();
+y=input.nextInt();
+if(x==y)
+System.out.println("=");
+elseif(x<y)
+System.out.println("<");
+else
+System.out.println(">");
+t++;

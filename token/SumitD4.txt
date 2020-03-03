@@ -1,0 +1,12 @@
+inta,b,t=0,n;
+n=x.nextInt();
+while(t<n)
+a=x.nextInt();
+b=x.nextInt();
+if(a<b)
+System.out.println("<");
+elseif(a>b)
+System.out.println(">");
+else
+System.out.println("=");
+t++;

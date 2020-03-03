@@ -1,0 +1,9 @@
+intt,i;
+longa,b;
+t=input.nextInt();
+for(i=0;i<t;i++)
+a=input.nextLong();
+b=input.nextLong();
+if(a>b)System.out.println(">");
+elseif(a<b)System.out.println("<");
+elseSystem.out.println("=");

@@ -1,0 +1,15 @@
+intt,i;
+t=in.nextInt();
+inta[]=newint[t];
+intb[]=newint[t];
+if(t<15){
+for(i=0;i<t;i++)
+a[i]=in.nextInt();
+b[i]=in.nextInt();
+for(i=0;i<t;i++)
+if(a[i]>b[i])
+System.out.println(">");
+elseif(a[i]<b[i])
+System.out.println("<");
+else
+System.out.println("=");

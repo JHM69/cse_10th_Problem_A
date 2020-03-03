@@ -1,0 +1,11 @@
+intnum,x,y;
+num=input.nextInt();
+for(inti=0;i<num;i++){
+x=input.nextInt();
+y=input.nextInt();
+if(x>y)
+System.out.println(">");
+elseif(x<y)
+System.out.println("<");
+else
+System.out.println("=");

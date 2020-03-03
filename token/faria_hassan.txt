@@ -1,0 +1,12 @@
+inti,t;
+longnum1,num2;
+t=so.nextInt();
+for(i=1;i<=t;i++)
+num1=so.nextLong();
+num2=so.nextLong();
+if(num1==num2)
+System.out.println("=");
+elseif(num1<num2)
+System.out.println("<");
+else
+System.out.println(">");

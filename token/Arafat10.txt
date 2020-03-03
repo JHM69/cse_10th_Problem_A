@@ -1,0 +1,9 @@
+intN=in.nextInt();
+while(N--!=0){
+inta=in.nextInt(),b=in.nextInt();
+if(a<b)
+System.out.println("<");
+if(a==b)
+System.out.println("=");
+if(a>b)
+System.out.println(">");

@@ -1,0 +1,10 @@
+inta,b,c;
+a=input.nextInt();
+for(inti=1;i<=a;i++){
+b=input.nextInt();
+c=input.nextInt();
+if(b>c)
+System.out.println(">");
+elseif(b==c)
+System.out.println("=");
+elseSystem.out.println("<");

@@ -1,0 +1,11 @@
+intt,m,n;
+t=input.nextInt();
+for(inti=1;i<=t;i++){
+m=input.nextInt();
+n=input.nextInt();
+if(m<n)
+System.out.println("<");
+elseif(m>n)
+System.out.println(">");
+else
+System.out.println("=");

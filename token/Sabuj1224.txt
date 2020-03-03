@@ -1,0 +1,11 @@
+intcount;
+count=input.nextInt();
+for(inti=1;i<=count;i++)
+intnum1=input.nextInt();
+intnum2=input.nextInt();
+if(num1>num2)
+System.out.println(">");
+elseif(num1<num2)
+System.out.println("<");
+else
+System.out.println("=");

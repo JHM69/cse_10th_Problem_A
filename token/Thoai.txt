@@ -1,0 +1,12 @@
+inti,j,t=1,n;
+n=input.nextInt();
+while(t<=n)
+i=input.nextInt();
+j=input.nextInt();
+if(i==j)
+System.out.println("=");
+elseif(i<j)
+System.out.println("<");
+else
+System.out.println(">");
+t++;

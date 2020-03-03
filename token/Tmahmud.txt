@@ -1,0 +1,11 @@
+intt,a,b;
+t=input.nextInt();
+for(inti=0;i<t;i++){
+a=input.nextInt();
+b=input.nextInt();
+if(a>b)
+System.out.printf(">\n");
+elseif(a<b)
+System.out.printf("<\n");
+elseif(a==b)
+System.out.printf("=\n");}

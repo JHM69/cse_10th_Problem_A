@@ -1,0 +1,11 @@
+inta,b,t,i;
+t=input.nextInt();
+for(i=1;i<=t;i++)
+a=input.nextInt();
+b=input.nextInt();
+if(a==b)
+System.out.println('=');
+elseif(a>b)
+System.out.println('>');
+else
+System.out.println('<');
